@@ -1,22 +1,41 @@
-# 📊 One Month Sales — Power BI Dashboard
+# Hotel Booking Data Analysis (EDA Project)
 
-This repository contains an interactive **Power BI Sales Dashboard** created using one month of sales data.  
-The dashboard provides insights into:
+## Project Overview
 
-- Total Orders  
-- Total Sales  
-- Total Commission  
-- Date-wise Order Trends  
-- Sales by Sales Representative (RP)  
-- Product-wise Quantity Distribution  
-- State-wise Quantity Summary  
-- Category-wise Performance  
+This project performs Exploratory Data Analysis (EDA) on a hotel booking dataset containing booking details for City Hotel and Resort Hotel from 2015–2017. The aim is to analyze booking patterns, customer behavior, cancellation trends, and factors that affect hotel performance.
 
----
+## Business Objective
 
-## 🖼 Dashboard Preview
+The main objective is to generate insights from hotel booking data to:
 
-(Add your screenshot here once uploaded)
+* Identify key drivers of hotel bookings
+* Compare performance between City Hotel and Resort Hotel
+* Detect issues like high cancellations, long waiting times, and low demand periods
+* Support data-driven business decisions and growth
 
-```md
-![Dashboard Preview](screenshot.png)
+## Dataset Details
+
+* Total Rows (Before Cleaning): 119,390
+* Final Rows (After Cleaning): 87,392
+* Columns: 32 → 33 (after adding Booking ID)
+* Hotel Types: City Hotel, Resort Hotel
+* Time Period: 2015–2017
+
+## Data Cleaning and Feature Engineering
+
+* Removed duplicate records
+* Handled missing values
+* Created Total Stay column
+* Added Total Customers column (Adults + Children + Babies)
+* Added Booking ID as a primary key
+* Merged Arrival Day, Month, Year into Arrival Date
+* Created Customer Satisfaction indicator
+* Converted columns to appropriate data types
+
+## Skills Demonstrated
+
+* Exploratory Data Analysis (EDA)
+* Data Cleaning and Preprocessing
+* Feature Engineering
+* Data Visualization
+* Business Insight Generation
